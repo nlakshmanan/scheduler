@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCBR_KbkMiiWuFsu1sC7cChP8FilfeLFnI",
+    authDomain: "scheduler-2f2b8.firebaseapp.com",
+    databaseURL: "https://scheduler-2f2b8.firebaseio.com",
+    projectId: "scheduler-2f2b8",
+    storageBucket: "scheduler-2f2b8.appspot.com",
+    messagingSenderId: "784996429844",
+    appId: "1:784996429844:web:747b2779578818c723b701",
+    measurementId: "G-WYP6GV9H5J"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
